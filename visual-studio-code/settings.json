@@ -1,0 +1,51 @@
+{
+	"files.insertFinalNewline": true,
+	"html.format.endWithNewline": true,
+	"workbench.colorCustomizations": {
+		"[Default Dark+]": {
+			"statusBar.background": "#1A1A1A",
+			"statusBar.noFolderBackground": "#212121",
+			"statusBar.debuggingBackground": "#263238",
+			"gitDecoration.ignoredResourceForeground": "#707070c9"
+		}
+	},
+	"editor.tabSize": 4,
+	"editor.detectIndentation": false,
+	"editor.insertSpaces": false,
+	"editor.formatOnSave": false,
+	"[json]": {
+		"editor.insertSpaces": true,
+		"editor.tabSize": 2
+	},
+	"gitlens.advanced.messages": {
+		"suppressCommitHasNoPreviousCommitWarning": false,
+		"suppressCommitNotFoundWarning": false,
+		"suppressFileNotUnderSourceControlWarning": false,
+		"suppressGitVersionWarning": false,
+		"suppressLineUncommittedWarning": false,
+		"suppressNoRepositoryWarning": false,
+		"suppressResultsExplorerNotice": false,
+		"suppressShowKeyBindingsNotice": true
+	},
+	"window.zoomLevel": 0,
+	"workbench.startupEditor": "newUntitledFile",
+	"editor.multiCursorModifier": "ctrlCmd",
+	"gitlens.historyExplorer.enabled": true,
+	"eslint.validate": [
+		"javascript",
+		"javascriptreact",
+		{
+			"language": "vue",
+			"autoFix": true
+		}
+	],
+	"editor.renderWhitespace": "all",
+	"breadcrumbs.enabled": true,
+	"github.hosts": [
+		{
+			"host": "https://github.com",
+			"username": "oauth",
+			"token": "system"
+		}
+	]
+}
