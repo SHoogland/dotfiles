@@ -2,8 +2,9 @@
 #   0.  GIT AWARE PROMPT
 #   -------------------------------
 
-export GITAWAREPROMPT=~/.bash/git-aware-prompt
+export GITAWAREPROMPT=.bash/git-aware-prompt
 source "${GITAWAREPROMPT}/main.sh"
+source ~/dotfiles/git-completion.bash
 
 #  ---------------------------------------------------------------------------
 #
@@ -38,6 +39,7 @@ source "${GITAWAREPROMPT}/main.sh"
     export PATH="$PATH:/usr/local/bin"
     export PATH="/usr/local/git/bin:/sw/bin:/usr/local/bin:/usr/local:/usr/local/sbin:/usr/local/mysql/bin:$PATH"
     export PATH="$PATH:$HOME/.composer/vendor/bin"
+	export PATH=$PATH:/Users/stephan/Downloads/Drivers
 
 #   Set Default Editor (change 'Nano' to the editor of your choice)
 #   ------------------------------------------------------------
@@ -306,3 +308,7 @@ httpHeaders () { /usr/bin/curl -I -L $@ ; }             # httpHeaders:      Grab
 #   e.g.: hdiutil create -size 10m 10MB.dmg
 #   the above create files that are almost all zeros - if random bytes are desired
 #   then use: ~/Dev/Perl/randBytes 1048576 > 10MB.dat
+
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
