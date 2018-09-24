@@ -2,7 +2,7 @@
 #   0.  GIT AWARE PROMPT
 #   -------------------------------
 
-export GITAWAREPROMPT=.bash/git-aware-prompt
+export GITAWAREPROMPT=~/dotfiles/.bash/git-aware-prompt
 source "${GITAWAREPROMPT}/main.sh"
 source ~/dotfiles/git-completion.bash
 
