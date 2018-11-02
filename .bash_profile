@@ -32,23 +32,27 @@ source ~/dotfiles/git-completion.bash
     # export PS1="| \w @ \h (\u) \n| => "
 	export PS1=" \w \[$txtcyn\]\$git_branch\[$txtred\]\$git_dirty\[$txtrst\]\$ "
 
-    export PS2=" => "
+	export PS2=" => "
 
 #   Set Paths
 #   ------------------------------------------------------------
-    export PATH="$PATH:/usr/local/bin"
-    export PATH="/usr/local/git/bin:/sw/bin:/usr/local/bin:/usr/local:/usr/local/sbin:/usr/local/mysql/bin:$PATH"
-    export PATH="$PATH:$HOME/.composer/vendor/bin"
-	export PATH=$PATH:/Users/stephan/Downloads/Drivers
+	export PATH="/usr/local/bin:$PATH"
+	export PATH="/usr/local/sbin:$PATH"
+	export PATH="/usr/local/git/bin:$PATH"
+	export PATH="/usr/local:$PATH"
+	export PATH="/usr/local/opt/mysql@5.7/bin:$PATH"
+	export PATH="/sw/bin:$PATH"
+	export PATH="$HOME/.composer/vendor/bin:$PATH"
+	export PATH="$HOME/Downloads/Drivers:$PATH"
 
 #   Set Default Editor (change 'Nano' to the editor of your choice)
 #   ------------------------------------------------------------
-    export EDITOR=/usr/bin/nano
+	export EDITOR=/usr/bin/nano
 
 #   Set default blocksize for ls, df, du
 #   from this: http://hints.macworld.com/comment.php?mode=view&cid=24491
 #   ------------------------------------------------------------
-    export BLOCKSIZE=1k
+	export BLOCKSIZE=1k
 
 #   Add color to terminal
 #   (this is all commented out as I use Mac Terminal Profiles)

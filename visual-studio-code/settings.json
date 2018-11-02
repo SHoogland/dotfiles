@@ -12,11 +12,7 @@
 	"editor.tabSize": 4,
 	"editor.detectIndentation": false,
 	"editor.insertSpaces": false,
-	"editor.formatOnSave": false,
-	"[json]": {
-		"editor.insertSpaces": true,
-		"editor.tabSize": 2
-	},
+	"editor.formatOnSave": true,
 	"gitlens.advanced.messages": {
 		"suppressCommitHasNoPreviousCommitWarning": false,
 		"suppressCommitNotFoundWarning": false,
@@ -31,6 +27,11 @@
 	"workbench.startupEditor": "newUntitledFile",
 	"editor.multiCursorModifier": "ctrlCmd",
 	"gitlens.historyExplorer.enabled": true,
+	"editor.renderWhitespace": "all",
+	"breadcrumbs.enabled": true,
+	"eslint.options": {
+		"configFile": ".eslintrc.js"
+	},
 	"eslint.validate": [
 		"javascript",
 		"javascriptreact",
@@ -39,13 +40,9 @@
 			"autoFix": true
 		}
 	],
-	"editor.renderWhitespace": "all",
-	"breadcrumbs.enabled": true,
-	"github.hosts": [
-		{
-			"host": "https://github.com",
-			"username": "oauth",
-			"token": "system"
-		}
-	]
+	"prettier.useTabs": true,
+	"prettier.eslintIntegration": true,
+	"prettier.singleQuote": true,
+	"prettier.printWidth": 100,
+	"workbench.settings.editor": "json"
 }
