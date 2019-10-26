@@ -1,10 +1,11 @@
 # dotfiles
+
 My dotfiles and mac setup config
 
-```.bash_profile```
+`.zshrc`
 
-I source this file from the .bash_profile in my home directory
+I source this file from the .zshrc in my home directory
 
-```applications.md```
+`applications.md`
 
 All the applications i install and use on my mac
