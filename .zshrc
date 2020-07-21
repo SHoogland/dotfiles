@@ -104,3 +104,9 @@ alias testpush='sh /Users/stephan/testpush.sh'
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+
+alias toggl='open https://toggl.com/app/'
+alias downloads='open ~/Downloads'
+alias flywheel='open https://app.getflywheel.com/'
+alias proton='open https://mail.protonmail.com/login'
+
