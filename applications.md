@@ -2,7 +2,6 @@
 
 - visual studio code
 - postman
-- sequel pro
 - mysqlworkbench
 - xcode
 - filezilla
@@ -16,17 +15,14 @@
 - 1password
 - tunnelblick
 - sketch
-- chrome
+- chrome/brave
 - dropbox
 - stack
 
-## Matise
+## Chat apps
 
-- harvest
-- airmail
 - slack
-- google file stream
-
+- whatsapp
 
 ## Misc
 A small list just to be able to search by names of programs
