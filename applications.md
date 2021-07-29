@@ -1,10 +1,12 @@
 ## Development applications
 
 - visual studio code
-- postman
-- mysqlworkbench
+- phpstorm (JetBrains toolbox)
+- postman/insomnia
+- tableplus
 - xcode
-- filezilla
+- transmit
+- docker for mac
 
 ## Utility / Essentials
 
@@ -13,8 +15,7 @@
 - littlesnitch and microsnitch
 - todoist
 - 1password
-- tunnelblick
-- sketch
+- protonvpn
 - chrome/brave
 - dropbox
 - stack
@@ -32,6 +33,10 @@ A small list just to be able to search by names of programs
 - DYMO label (label printer software @matise)
 - coconutBattery (battery health inspection tool)
 - qBittorrent (downloading torrents)
+- hot (cpu throttling status/temp)
+- autodesk fusion 360 (3d modeling)
+- prusaslicer (3d printer slicing)
+- raspberry pi imager
 
 ---
 
