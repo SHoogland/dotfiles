@@ -1,11 +1,15 @@
 ## Development applications
 
-- visual studio code
-- phpstorm (JetBrains toolbox)
+#### brew
+- `brew install --cask visual-studio-code`
+- `brew install --cask jetbrains-toolbox`
+- `brew install --cask transmit`
+
+#### app store
+- xcode
+
 - postman/insomnia
 - tableplus
-- xcode
-- transmit
 - docker for mac
 
 ## Utility / Essentials
