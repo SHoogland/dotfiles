@@ -1,33 +1,40 @@
-## Development applications
+## Applications
 
 #### brew
-- `brew install --cask visual-studio-code`
-- `brew install --cask jetbrains-toolbox`
-- `brew install --cask transmit`
+```
+brew install --cask brave-browser
+brew install --cask visual-studio-code
+brew install --cask jetbrains-toolbox
+brew install --cask transmit
+brew install --cask docker
+brew install --cask insomnia
+brew install --cask postman
+brew install --cask tableplus
+brew install --cask little-snitch
+brew install --cask micro-snitch
+brew install --cask todoist
+brew install --cask protonvpn
+brew install --cask dropbox
+brew install --cask stack
+brew install --cask slack
+brew install --cask whatsapp
+brew install --cask cyberduck
+brew install --cask google-chrome
+brew install --cask insomnia
+brew install --cask postman
+brew install --cask tableplus
+brew install --cask vlc
+```
 
 #### app store
 - xcode
+- pastebot (bought)
+- moom (bought)
 
-- postman/insomnia
-- tableplus
-- docker for mac
 
-## Utility / Essentials
-
-- pastebot
-- moom
-- littlesnitch and microsnitch
-- todoist
-- 1password
-- protonvpn
+### other
 - chrome/brave
-- dropbox
-- stack
-
-## Chat apps
-
-- slack
-- whatsapp
+- 1password (beta 8.x)
 
 ## Misc
 A small list just to be able to search by names of programs
@@ -41,6 +48,7 @@ A small list just to be able to search by names of programs
 - autodesk fusion 360 (3d modeling)
 - prusaslicer (3d printer slicing)
 - raspberry pi imager
+- sequel ace (open source db gui)
 
 ---
 

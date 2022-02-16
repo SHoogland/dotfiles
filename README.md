@@ -15,3 +15,7 @@ All the applications i install and use on my mac
 
 - https://brew.sh
 - https://github.com/ohmyzsh/ohmyzsh
+
+### show hidden files in finder
+- `defaults write com.apple.Finder AppleShowAllFiles true`
+- `killall Finder`
