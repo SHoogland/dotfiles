@@ -24,6 +24,7 @@ brew install --cask insomnia
 brew install --cask postman
 brew install --cask tableplus
 brew install --cask vlc
+brew install --cask discord
 ```
 
 #### app store
