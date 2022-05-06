@@ -25,6 +25,8 @@ brew install --cask postman
 brew install --cask tableplus
 brew install --cask vlc
 brew install --cask discord
+brew install --cask prusaslicer
+brew install openjdk
 ```
 
 #### app store
