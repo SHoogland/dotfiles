@@ -28,6 +28,7 @@ brew install --cask discord
 brew install --cask prusaslicer
 brew install --cask screaming-frog-seo-spider
 brew install openjdk
+brew install craftcms/nitro/nitro
 ```
 
 #### app store
