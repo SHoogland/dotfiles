@@ -27,6 +27,7 @@ brew install --cask vlc
 brew install --cask discord
 brew install --cask prusaslicer
 brew install --cask screaming-frog-seo-spider
+brew install --cask 1password/tap/1password-cli
 brew install openjdk
 brew install craftcms/nitro/nitro
 ```
